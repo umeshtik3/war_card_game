@@ -16,7 +16,6 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Image("background-plain")
-            
             VStack(spacing:60){
                 Image("logo")
                     .renderingMode(.original)
